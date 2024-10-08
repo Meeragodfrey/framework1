@@ -1,0 +1,19 @@
+<suite name="mysuite">
+	<listeners>
+		<listener class-name="Utilities.ExtentReportUttilities" />
+	</listeners>
+	<test name="mytest" thread-count="3">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<!-- <class name="TestCases.LogintestCases"></class>-->
+			<!--<class name="TestCases.WorkerTestCases"></class> -->
+			<!--<class name="TestCases.DeductionTesctCase_002"></class> -->
+			<!--<class name="TestCases.WorkerrTestCases"></class> -->
+			<!-- <class name="TestCases.ClientTestCase_002"></class>-->
+			<!-- <class name="TestCases.PaySlipTestCase_001"></class>-->
+			<class name="TestCases.LogoutTestCase_001"></class>
+		</classes>
+	</test>
+
+</suite>
+

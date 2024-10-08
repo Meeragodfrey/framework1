@@ -1,0 +1,19 @@
+<suite name="mysuite">
+	<groups>
+		<run>
+			<include name="critical"></include> 
+			<!-- <include name="Regression"></include>-->
+			<include name="Sanity"></include>
+		</run>
+
+	</groups>
+	<test name="mytest" thread-count="3">
+		<parameter name="browser" value="chrome"></parameter>
+	<classes>
+			<class name="TestCases.LogintestCases"></class>
+			<class name="TestCases.WorkerrTestCases"></class> 
+			<class name="TestCases.WorkerTestCases"></class> 
+		</classes>
+		</test>
+
+</suite>
